@@ -11,7 +11,7 @@ With Highway Webhooks you can have the events triggered on your Highway account 
 In this guide we will overview the lifecycle of events and we will create a new webhook for a
 custom application.
 
-If you want a detailed explaination of what are webhooks an review the different use cases visit [the quickstart guide](/developer/webhooks.md).
+If you want a detailed explaination of what webhooks are and review the different use cases visit [the quickstart guide](/developer/webhooks.md).
 
 ## 1. Configure Webhook events
 
