@@ -52,7 +52,32 @@
         mergeNavbar: false,
         maxLevel: 2,
         subMaxLevel: 1,
-        ga: "UA-59390987-1"
+        ga: "UA-59390987-1",
+        plugins: [
+          function(hook, vm) {
+            hook.beforeEach(function(html) {
+              if (/githubusercontent\.com/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace("raw.githubusercontent.com", "github.com")
+                  .replace(/\/master/, "/blob/master");
+              } else {
+                url =
+                  "https://github.com/smartmonkeyio/sm-highway-docs/blob/master/docs/" +
+                  vm.route.file;
+              }
+              var editHtml = "[:memo:Edit Document](" + url + ")\n\n";
+
+              return (
+                '<div style="min-height:100vh;"> \n\n' +
+                editHtml +
+                html +
+                "</div>" +
+                "\n\n----\n\n" +
+                '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
+              );
+            });
+          }
+        ]
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -61,6 +86,8 @@
     <script src="//unpkg.com/docsify/lib/plugins/ga.min.js"></script>
     <script src="//unpkg.com/docsify/lib/plugins/emoji.min.js"></script>
     <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+    //
     <script src="//unpkg.com/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
   </body>
 </html>

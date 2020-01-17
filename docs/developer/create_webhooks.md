@@ -11,9 +11,38 @@ With Highway Webhooks you can have the events triggered on your Highway account 
 In this guide we will overview the lifecycle of events and we will create a new webhook for a
 custom application.
 
-If you want a detailed explaination of what are webhooks visit [the previous page](/developer/webhooks.md).
+If you want a detailed explaination of what are webhooks an review the different use cases visit [the quickstart guide](/developer/webhooks.md).
 
 ## 1. Configure Webhook events
+
+Webhooks can be configured (in the app)[https://highway.smartmonkey.io/highway/account/webhooks] or, conversely, they can be created
+through the API.
+
+<!-- tabs:start -->
+
+#### ** bash **
+
+```bash
+curl "http://localhost:8090/api/v1/webhook\
+?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
+ -d "enabled_events"="plan.created" \
+ -d "enabled_events"="plan.updated" \
+ -d "enabled_events"="plan.deleted" \
+ -d url='http://example.url.com/'
+```
+
+#### ** JS **
+
+```javascript
+const highway = require("highway-services")("{SECRET_KEY}");
+
+const endpoint = await highway.webhook.create({
+  url: "http://example.url.com/",
+  enabled_events: ["plan.created", "plan.updated", "plan.deleted"]
+});
+```
+
+<!-- tabs:end -->
 
 ## 2. Set up your Server
 
@@ -41,12 +70,26 @@ server.listen(port, err => {
 
 Once we have our small ingesting system we can attempt to generate and read an `Event`. To raise a `plan.created` we will need to create a new plan through the API.
 
+<!-- tabs:start -->
+
+#### ** bash **
+
 ```bash
 curl "http://localhost:8090/api/v1/plan\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
 ```
 
-This action will internally generate an `plan.created` event that will be sent to our mini server that will print an output like this.
+#### ** JS **
+
+```javascript
+const highway = require("highway-services")("{SECRET_KEY}");
+
+const endpoint = await highway.plan.create({});
+```
+
+<!-- tabs:end -->
+
+This action will internally generate an `plan.created` event that will be sent to our server. The resulting document is an `Event` object that contains a `Plan` inside.
 
 ```json
 {
