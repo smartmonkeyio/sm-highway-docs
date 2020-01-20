@@ -14,6 +14,8 @@ provide some definitions:
 
 - **Service** is a task that must be performed. It's defined by it's location and may contain some constraints such as _duration_, _timewindows_, ...
 
+![Overview of Plan, Route and Service](../images/plan_route_service.png)
+
 ## 1. Set up Highway
 
 The first thing needed is the user's `private_key`. This key is needed to authenticate every single request performed against the Highway API.
