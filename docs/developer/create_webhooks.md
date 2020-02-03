@@ -23,7 +23,7 @@ through the API.
 #### ** bash **
 
 ```bash
-curl "http://localhost:8090/api/v1/webhook\
+curl "https://highwayservices.smartmonkey.io/api/v1/webhook\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
  -d "enabled_events"="plan.created" \
  -d "enabled_events"="plan.updated" \
@@ -75,7 +75,7 @@ Once we have our small ingesting system we can attempt to generate and read an `
 #### ** bash **
 
 ```bash
-curl "http://localhost:8090/api/v1/plan\
+curl "https://highwayservices.smartmonkey.io/api/v1/plan\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
 ```
 

@@ -29,7 +29,7 @@ To check that your integration is working correctly, make a test API request usi
 You have to replace `{PRIVATE_KEY}` with your own key.
 
 ```bash
-curl "http://localhost:8090/api/v1/plans\
+curl "https://highwayservices.smartmonkey.io/api/v1/plans\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa"
 ```
 

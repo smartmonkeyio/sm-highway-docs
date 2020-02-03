@@ -29,7 +29,7 @@ The plan is a container for routes and services. It is usually defined by a star
 the progress of operations.
 
 ```bash
-curl "http://localhost:8090/api/v1/plan\
+curl "https://highwayservices.smartmonkey.io/api/v1/plan\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
   -d label="Example Highway Plan" \
   -d external_id="my-database-id" \
@@ -66,7 +66,7 @@ Creating services and routes requires having a `Plan` previously created. As we 
 plan we can move and send a request for creating a service.
 
 ```bash
-curl "http://localhost:8090/api/v1/service\
+curl "https://highwayservices.smartmonkey.io/api/v1/service\
 ?plan_id=5e20672d9e1ae762f27a7602\
 &private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
   -d label="My First Service" \
@@ -107,7 +107,7 @@ This will return a `Service` object. This object contains some predefined values
 Now we are going to create the first `Route` in a similar way as we did with services.
 
 ```bash
-curl "http://localhost:8090/api/v1/route\
+curl "https://highwayservices.smartmonkey.io/api/v1/route\
 ?plan_id=5e20672d9e1ae762f27a7602\
 &private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
   -d label="My First Route" \
@@ -164,7 +164,7 @@ In our current plan there is now a single route and a single service, and the se
 algorithm, we should have our service assigned to our route.
 
 ```bash
-curl "http://localhost:8090/api/v1/plan/5e20672d9e1ae762f27a7602/optimize\
+curl "https://highwayservices.smartmonkey.io/api/v1/plan/5e20672d9e1ae762f27a7602/optimize\
 ?private_key=priv_zWBZEPmNc9phMQ9oQ-Q0eSuD~UY4pMcfTZ4rWZ4SWVAnTsiUkUsTiTvJmJHc.Joa" \
   -X POST
 ```
