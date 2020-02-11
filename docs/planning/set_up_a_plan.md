@@ -16,12 +16,64 @@ provide some definitions:
 
 ![Overview of Plan, Route and Service](../images/plan_route_service.png)
 
+<!-- tabs:start -->
+#### ** Customer **
+## 1. Set up Highway
+
+Follow the step from our user manual for developers to start getting benefits from optimizing your routes. With Highway you can build up your entire fleet of any types of vehicles for both small deliveries and heavy duty equipment. Our software helps our customers manage, organize and coordinate their routes and services all in one place. Highway offers a wide range of restrictions that can be set by a that will make your planning as accurate as it gets. It can easily adjust to your specific use case or unique business model as well as import vehicles from a telematics service of your choice in case you already have one. In the next section you will learn more about how to modify the details of your services as well as assign vehicles to the routes and much more. 
+
+
+## 2. Create a plan
+
+To create a new vehicle in Highway you should start with going to "Plans" section and hit a "New Plan" button. 
+
+![Overview of Plan, Route and Service](../images/new_plan.png)
+
+## 3. Create services and routes
+
+Next you will see "Add Route" and "Add Service" in the top left corner of the interface, go ahead and click on one of those. 
+
+![Overview of Plan, Route and Service](../images/add_route.png)
+
+You can add information manually, import it from previously saves clients or vehicles or, most likely, you would want to import your usual excel sheet straight in the system. 
+
+![Overview of Plan, Route and Service](../images/excel.png)
+
+After that is done, you want to choose general and contact information as well as constrains you have in your shreadsheet and match them with the one offered by the platfrom. This includes volumetric restrictions, timewindows, duration of delivery, service ID, assignee, etc. Save those changes and hit "Next", "Next" again after you chacked that the input is correct and then "Create" to view the final screen before the start of optimization. You should see a window where you would have at least one route and at least one service for the "Optimize" button to appeat clickable. 
+
+![Overview of Plan, Route and Service](../images/ready.png)
+
+Apart from services and routes, vehicles and clients can also be added to the system. It's very convinient if you do business with the same clients over and over again. 
+
+Creating clients can be as easy as right-clicking a map at clients address and a pop-up will suggest to save this address as a new client as well as through a button in the top right corner. 
+
+![Overview of Plan, Route and Service](../images/clients.png)
+
+
+## 4. Optimizing the route
+
+At this point you need to click the optimize button in the top right corner.
+
+![Overview of Plan, Route and Service](../images/optimize.png) 
+
+Now you can view your optimized routes and adjust them according to your specific requirements if needed. In the "Routes" tab on the navigation bar you can view how the system merged routes and services and distributed tasks between all the vehicles. 
+
+Highway interface allows users to view two task lists of two vehicles at a time in order to adjust them using a convinient drag and drop gesture. You can keep on adding services and routes again and again until you're satisfied with the result. 
+
+![Overview of Plan, Route and Service](../images/lists.png)
+
+**NOTE**: When you want to reoptimize a manually adjusted route for a specific vehicle without losing changes, you should click a "Reoptimize Route" instead of "Optimize" button which you can find in the customization bar marked with three dots in the top right corner of task list of every vehicle in the fleet. 
+
+![Overview of Plan, Route and Service](../images/reoptimize.png)
+
+#### ** Developer **
 ## 1. Set up Highway
 
 The first thing needed is the user's `private_key`. This key is needed to authenticate every single request performed against the Highway API.
 
 You can find the private key under the [user settings](https://highway.smartmonkey.io/highway/account/keys). Private keys will always start with the preffix `priv_` for
 users clarity.
+
 
 ## 2. Create a plan
 
@@ -284,3 +336,5 @@ But, why stopping here? The best part is about to come.
 - [Status lifecycle]()
 - [Editing routes]()
 - [Optimizing]()
+
+<!-- tabs:end -->
