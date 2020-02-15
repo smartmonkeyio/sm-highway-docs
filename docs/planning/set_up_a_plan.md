@@ -27,44 +27,40 @@ Follow the step from our user manual for developers to start getting benefits fr
 
 To create a new vehicle in Highway you should start with going to "Plans" section and hit a "New Plan" button. 
 
-![Overview of Plan, Route and Service](../images/new_plan.png)
+![Starting a new Plan](../images/new_plan.png)
 
 ## 3. Create services and routes
 
 Next you will see "Add Route" and "Add Service" in the top left corner of the interface, go ahead and click on one of those. 
 
-![Overview of Plan, Route and Service](../images/add_route.png)
+![Adding a Route](../images/add_route.png)
 
 You can add information manually, import it from previously saves clients or vehicles or, most likely, you would want to import your usual excel sheet straight in the system. 
 
-![Overview of Plan, Route and Service](../images/excel.png)
+![Excel](../images/excel.png)
 
 After that is done, you want to choose general and contact information as well as constrains you have in your shreadsheet and match them with the one offered by the platfrom. This includes volumetric restrictions, timewindows, duration of delivery, service ID, assignee, etc. Save those changes and hit "Next", "Next" again after you chacked that the input is correct and then "Create" to view the final screen before the start of optimization. You should see a window where you would have at least one route and at least one service for the "Optimize" button to appeat clickable. 
 
-![Overview of Plan, Route and Service](../images/ready.png)
+![Ready for optimization](../images/ready.png)
 
-Apart from services and routes, vehicles and clients can also be added to the system. It's very convinient if you do business with the same clients over and over again. 
-
-Creating clients can be as easy as right-clicking a map at clients address and a pop-up will suggest to save this address as a new client as well as through a button in the top right corner. 
-
-![Overview of Plan, Route and Service](../images/clients.png)
+Apart from services and routes, vehicles and clients can also be added to the system. It's very convinient if you do business with the same clients over and over again. More information on adding and saving clients can be found on [adding a client](/clients/creating.md) section.
 
 
 ## 4. Optimizing the route
 
 At this point you need to click the optimize button in the top right corner.
 
-![Overview of Plan, Route and Service](../images/optimize.png) 
+![Optimize](../images/optimize.png) 
 
 Now you can view your optimized routes and adjust them according to your specific requirements if needed. In the "Routes" tab on the navigation bar you can view how the system merged routes and services and distributed tasks between all the vehicles. 
 
 Highway interface allows users to view two task lists of two vehicles at a time in order to adjust them using a convinient drag and drop gesture. You can keep on adding services and routes again and again until you're satisfied with the result. 
 
-![Overview of Plan, Route and Service](../images/lists.png)
+![Lists ](../images/lists.png)
 
 **NOTE**: When you want to reoptimize a manually adjusted route for a specific vehicle without losing changes, you should click a "Reoptimize Route" instead of "Optimize" button which you can find in the customization bar marked with three dots in the top right corner of task list of every vehicle in the fleet. 
 
-![Overview of Plan, Route and Service](../images/reoptimize.png)
+![Reoptimize](../images/reoptimize.png)
 
 #### ** Developer **
 ## 1. Set up Highway
@@ -328,6 +324,9 @@ Now you have a fully powered and optimized route. But if you are unhappy with th
 You can add new routes and new services with the methods provided before and optimize the route
 again and again until it satisfies your needs.
 
+
+<!-- tabs:end -->
+
 ## See also
 
 This guide provides a Quickstart in the planning module. Now you know how to create a Plan, and how to populate it with services and routes.
@@ -336,5 +335,3 @@ But, why stopping here? The best part is about to come.
 - [Status lifecycle]()
 - [Editing routes]()
 - [Optimizing]()
-
-<!-- tabs:end -->
