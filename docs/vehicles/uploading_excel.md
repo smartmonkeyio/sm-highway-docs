@@ -41,13 +41,17 @@ Vehicle icons appearance can be adjusted in order to specify the type of vehicle
 
 
 
-
-
-
 #### ** Developer **
 
 <!-- tabs:end -->
 
+
+## FAQs
+
+- Why my columns headers weren't read properly? 
+  
+  When you upload an excel file with multiple sheets, the system is **_always reading the first one_**. You can find more information on how to upload files with multiple worksheets [here](/vehicles/other_sheets.md).
+  
 ## See also
 
 This guide provides a Quickstart in the vehicles module. Now you know how to save a vehicle and how to add all the required constrains to match it with services and routes in a most efficient way.
