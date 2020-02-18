@@ -1,4 +1,4 @@
-# Upload an excel sheet with you operations 
+# Upload an excel sheet with your operations 
 
 **Import your clients from an shreadsheet just in few moments**
 
@@ -54,3 +54,4 @@ This guide provides a Quickstart in the clients module. Now you know how to save
 But, why stopping here? The best part is about to come.
 
 - [Adding a client]()
+- [Using multiple sheets]()

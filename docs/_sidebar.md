@@ -10,10 +10,12 @@
   - [Overview](/clients/overview.md)
   - [Adding a client](/clients/creating_clients.md)
   - [Uploading a spreadsheet](/clients/uploading_excel.md)
+  - [Using multiple sheets](/clients/other_sheets.md)
 - :truck: Vehicles
   - [Overview](/vehicles/overview.md)
-  -  [Adding a vehicle](/vehicles/creating_vehicles.md)
-  -  [Uploading a spreadsheet](/vehicles/uploading_excel.md)
+  - [Adding a vehicle](/vehicles/creating_vehicles.md)
+  - [Uploading a spreadsheet](/vehicles/uploading_excel.md)
+  - [Using multiple sheets](/vehicles/other_sheets.md)
 - :space_invader: Developer
   - [Quickstart](/developer/quickstart.md)
   - [Webhooks](/developer/webhooks.md)
