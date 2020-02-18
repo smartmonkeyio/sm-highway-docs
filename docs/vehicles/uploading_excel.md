@@ -50,8 +50,22 @@ Vehicle icons appearance can be adjusted in order to specify the type of vehicle
 
 - Why my columns headers weren't read properly? 
   
-  When you upload an excel file with multiple sheets, the system is **_always reading the first one_**. You can find more information on how to upload files with multiple worksheets [here](/vehicles/other_sheets.md).
-  
+  - When you upload an excel file with multiple sheets, the system is **_always reading the first one_**. You can find more information on how to upload files with multiple worksheets [here](/vehicles/other_sheets.md).
+
+- What does the red symbol on the right of the column mean? 
+
+ - If you see this symbol when trying to upload a spreadsheet it means that the column data wasn't read properly and no value will be assigned to that parameter. 
+
+ ![Error message](../images/error_message.png)
+
+   If you see that error message, please check if you selected the right column header. If the header is correct, check if the data format is correct. Correct data format for vehicle upload should look like this: 
+
+   **Vehicle’s start address** (optional): Enter the address in the same format as the Service address.
+
+   **Vehicle’s end address** (optional): Enter the address in the same format as the Service address.
+
+   **Working time**: This is the time of drivers availability, for example: **“10:00-14:00”**
+
 ## See also
 
 This guide provides a Quickstart in the vehicles module. Now you know how to save a vehicle and how to add all the required constrains to match it with services and routes in a most efficient way.

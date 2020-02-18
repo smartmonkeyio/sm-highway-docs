@@ -50,7 +50,22 @@ Client icons appearance can be adjusted in order to specify the type of business
 
 - Why my columns headers weren't read properly? 
   
-  When you upload an excel file with multiple sheets, the system is **_always reading the first one_**. You can find more information on how to upload files with multiple worksheets [here](/vehicles/other_sheets.md).
+  - When you upload an excel file with multiple sheets, the system is **_always reading the first one_**. You can find more information on how to upload files with multiple worksheets [here](/vehicles/other_sheets.md).
+
+- What does the red symbol on the right of the column mean? 
+
+ - If you see this symbol when trying to upload a spreadsheet it means that the column data wasn't read properly and no value will be assigned to that parameter. 
+
+ ![Error message](../images/error_message.png)
+
+ If you see that error message, please check if you selected the right column header. If the header is correct, check if the data format is correct. Correct data format for service upload should look like this: 
+
+ **Service address**: You can enter it using coordinates like: **“latitude, longitude“**. Or you can enter the client’s address: recommended order **“street name, number, ZIP code, town or city, country”**.
+
+ **Time window**: You can enter more than one time window in this way **“8:00-9:00; 11:00-12:00“**.
+
+ **Duration**: How long will the vehicle be stopped in minutes.
+  
 
 ## See also
 
