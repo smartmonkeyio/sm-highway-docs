@@ -44,6 +44,6 @@ Clients can be added manually by clicking the "Create Clients" button (1) and th
 This guide provides a Quickstart in the clients module. Now you know how to create a client and how to add all the required constrains to match it with services and routes in a most efficient way.
 But, why stopping here? The best part is about to come.
 
-- [Uploading a spreadsheet]()
-- [Using multiple sheets]()
+- [Uploading a spreadsheet](/clients/uploading_excel.md)
+- [Using multiple sheets](/clients/other_sheets.md)
 

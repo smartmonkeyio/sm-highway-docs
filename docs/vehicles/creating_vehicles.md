@@ -44,6 +44,6 @@ Vehicles can be added manually by clicking the "Create Vehicles" button (1) and 
 This guide provides a Quickstart in the vehicles module. Now you know how to create a vehicles and how to add all the required constrains to match it with services and routes in a most efficient way.
 But, why stopping here? The best part is about to come.
 
-- [Uploading a spreadsheet]()
-- [Using multiple sheets]()
+- [Uploading a spreadsheet](/vehicles/uploading_excel.md)
+- [Using multiple sheets](/vehicles/other_sheets.md)
 

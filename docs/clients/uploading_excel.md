@@ -53,5 +53,5 @@ Client icons appearance can be adjusted in order to specify the type of business
 This guide provides a Quickstart in the clients module. Now you know how to save a client and how to add all the required constrains to match it with services and routes in a most efficient way.
 But, why stopping here? The best part is about to come.
 
-- [Adding a client]()
-- [Using multiple sheets]()
+- [Adding a client](/clients/creating_clients.md)
+- [Using multiple sheets](/clients/cother_sheets.md)

@@ -53,5 +53,5 @@ Vehicle icons appearance can be adjusted in order to specify the type of vehicle
 This guide provides a Quickstart in the vehicles module. Now you know how to save a vehicle and how to add all the required constrains to match it with services and routes in a most efficient way.
 But, why stopping here? The best part is about to come.
 
-- [Adding a vehicle]()
-- [Using multiple sheets]()
+- [Adding a vehicle](/vehicles/creating_vehicles.md)
+- [Using multiple sheets](/vehicles/other_sheets.md)
