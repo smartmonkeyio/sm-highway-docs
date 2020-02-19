@@ -20,3 +20,10 @@
   - [Quickstart](/developer/quickstart.md)
   - [Webhooks](/developer/webhooks.md)
   - [Create Webhooks](/developer/create_webhooks.md)
+- :credit_card: Billing 
+  - [Overview](/billing/overview.md)
+  - [Billing FAQs](/billing/faqs.md)
+  - [View current plan](/billing/current_plan.md)
+  - [Update payment info](/billing/update_payment.md)
+  - [Cancel future payments](/billing/cancel_account.md)
+
