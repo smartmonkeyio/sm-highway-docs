@@ -12,7 +12,9 @@
   - No, we don't require that you configure your credit card for issuing a **free trial**. When the trial starts you’ll get **14 days** of unlimited access to all the features. The only limitation is a **maximum of 5 vehicles in operation**.
 
 - Can you provide a discounted rate for a customer wish large fleet and high delivery volumes? 
-  - If your business expects to use Highway for more than 1000 services per plan, please [contact us](https://smartmonkey.io/get-demo/).  
+  - If your business expects to use Highway for more than 1000 services per plan, please throught the support form in the bottom right corner of the screen. 
+
+ ![Manage plan](../images/freshchat.png)
 
 - What types of payments do you accept?
   - We accept credit and debit Visa, MasterCard, Maestro, American Express cards. Please contact us in case your card is not accepted by the payment system. 

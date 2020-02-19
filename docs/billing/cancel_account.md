@@ -4,4 +4,4 @@
 
 **Active Plans**: To request the cancellation of your account, simply click "Cancel Subscription" and our support team will cancel your account and provide confirmation via your admin email address.
 
-![Current plan](../images/cancel_plan.png)
+![Cancel plan](../images/cancel_plan.png)
