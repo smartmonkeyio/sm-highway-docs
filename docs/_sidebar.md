@@ -22,7 +22,7 @@
   - [Create Webhooks](/developer/create_webhooks.md)
 - :credit_card: Billing 
   - [Overview](/billing/overview.md)
-  - [Billing FAQs](/billing/faqs.md)
+  - [Billing FAQs](/billing/FAQs.md)
   - [View current plan](/billing/current_plan.md)
   - [Update payment info](/billing/update_payment.md)
   - [Cancel future payments](/billing/cancel_account.md)
