@@ -6,7 +6,7 @@ Highway Platform is one of the fastest developing routing software solutions on 
 
 **Advanced Route Management**
 
-Highway provides advanced and user-friendly tools for planning, dispatching and managing your routes. Route4Me’s Route Editor allows you to view and edit your routes on the interactive map with aggregated metrics and various adjustment settings. Using the Plans Editor, you can adjust your planned routes in real time and instantly synchronize the changes across all associated devices. You can also use our time-saving drag and drop gesture in the Routes List for moving services between different vehicles as well as easily organize and manage all your routes in one place. Highway's Client List can store the contact information of all your customers as well as their locations and other custom data.
+Highway provides advanced and user-friendly tools for planning, dispatching and managing your routes. Highways’s Route Editor allows you to view and edit your routes on the interactive map with aggregated metrics and various adjustment settings. Using the Plans Editor, you can adjust your planned routes in real time and instantly synchronize the changes across all associated devices. You can also use our time-saving drag and drop gesture in the Routes List for moving services between different vehicles as well as easily organize and manage all your routes in one place. Highway's Client List can store the contact information of all your customers as well as their locations and other custom data.
 
 **Managing Services and Vehicles**
 
@@ -15,7 +15,3 @@ Highway provides convenient and adjustable settings for managing your team membe
 **Live mode and communication**
 
 Highway’s advanced real-time tracking features allow you to view the actual location of your drivers on the map and easily track their routing activities in live mode. With Highway you can view the tracking history of your drivers to get a proper understanding of everything that is happening with your operations. Highway’s Android and iOS apps provide instant data synchronization with the Web Platform.
-
-**Telematics**
-
-Highway provides integration with a vast variety of tracking vendors worldwide to fully facilitate your route planning and tracking needs. Please contact us to learn more about different tracking vendors and their integration with Highway.
