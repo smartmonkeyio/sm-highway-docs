@@ -1,5 +1,6 @@
 - Highway Docs
   - [Home](/)
+  - [Features](/home.md)
 - :globe_with_meridians: Planning
   - [Overview](planning/overview.md)
   - [Set up a plan](/planning/set_up_a_plan.md)
