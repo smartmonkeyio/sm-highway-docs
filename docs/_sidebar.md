@@ -1,6 +1,6 @@
 - Highway Docs
   - [Home](/)
-  - [Features](/home.md)
+  - [Features](/features.md)
 - :globe_with_meridians: Planning
   - [Overview](planning/overview.md)
   - [Set up a plan](/planning/set_up_a_plan.md)
@@ -21,10 +21,9 @@
   - [Quickstart](/developer/quickstart.md)
   - [Webhooks](/developer/webhooks.md)
   - [Create Webhooks](/developer/create_webhooks.md)
-- :credit_card: Billing 
+- :credit_card: Billing
   - [Overview](/billing/overview.md)
   - [Billing FAQs](/billing/FAQs.md)
   - [View current plan](/billing/current_plan.md)
   - [Update payment info](/billing/update_payment.md)
   - [Cancel future payments](/billing/cancel_account.md)
-
