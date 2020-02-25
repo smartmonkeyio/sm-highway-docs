@@ -16,6 +16,6 @@ Highway provides convenient and adjustable settings for managing your team membe
 
 Highway’s advanced real-time tracking features allow you to view the actual location of your drivers on the map and easily track their routing activities in live mode. With Highway you can view the tracking history of your drivers to get a proper understanding of everything that is happening with your operations. Highway’s Android and iOS apps provide instant data synchronization with the Web Platform.
 
-**Telemetics**
+**Telematics**
 
 Highway provides integration with a vast variety of tracking vendors worldwide to fully facilitate your route planning and tracking needs. Please contact us to learn more about different tracking vendors and their integration with Highway.
