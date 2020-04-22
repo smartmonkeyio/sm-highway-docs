@@ -31,16 +31,40 @@
         height: 18px;
       }
     </style>
-   <script>
-      function initFreshChat() {
-        window.fcWidget.init({
-          token: "0f9547de-d6b9-4d76-8098-cab0312055fc",
-          host: "https://wchat.freshchat.com"
-        });
-      }
-      function initialize(i,t){var e;i.getElementById(t)?initFreshChat():
-      ((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+    <!-- Start Froged -->
+    <script>
+      window.frogedSettings = { appId: "airrtx" };
     </script>
+    <script>
+      (function () {
+        var a = document,
+          b = window;
+        if ("function" != typeof Froged) {
+          (Froged = function (a, b, c) {
+            Froged.c(a, b, c);
+          }),
+            (Froged.q = []),
+            (Froged.c = function (a, b, c) {
+              Froged.q.push([a, b, c]);
+            }),
+            (fg_data = { hooks: {} });
+          var c = function () {
+            var b = a.createElement("script");
+            (b.type = "text/javascript"),
+              (b.async = !0),
+              (b.src = "https://sdk.froged.com");
+            var c = a.getElementsByTagName("script")[0];
+            c.parentNode.insertBefore(b, c);
+          };
+          "complete" === a.readyState
+            ? c()
+            : window.attachEvent
+            ? b.attachEvent("onload", c)
+            : b.addEventListener("load", c, !1);
+        }
+      })();
+    </script>
+    <!-- End Froged -->
   </head>
 
   <body>
@@ -53,7 +77,7 @@
         auto2top: true,
         loadSidebar: true,
         alias: {
-          "/.*/_sidebar.md": "/_sidebar.md"
+          "/.*/_sidebar.md": "/_sidebar.md",
         },
         logo: "/_media/logo.png",
         executeScript: true,
@@ -64,8 +88,8 @@
         subMaxLevel: 1,
         ga: "UA-59390987-1",
         plugins: [
-          function(hook, vm) {
-            hook.beforeEach(function(html) {
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
               if (/githubusercontent\.com/.test(vm.route.file)) {
                 url = vm.route.file
                   .replace("raw.githubusercontent.com", "github.com")
@@ -86,8 +110,8 @@
                 '<a href="https://docsify.js.org" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">Powered by docsify</a>'
               );
             });
-          }
-        ]
+          },
+        ],
       };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
